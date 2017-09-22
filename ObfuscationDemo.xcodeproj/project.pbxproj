@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD24B9E1F750B0800A10FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD24B9D1F750B0800A10FAE /* AppDelegate.swift */; };
+		FAD24BA01F750B0800A10FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD24B9F1F750B0800A10FAE /* ViewController.swift */; };
+		FAD24BA31F750B0800A10FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD24BA11F750B0800A10FAE /* Main.storyboard */; };
+		FAD24BA51F750B0800A10FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD24BA41F750B0800A10FAE /* Assets.xcassets */; };
+		FAD24BA81F750B0800A10FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD24BA61F750B0800A10FAE /* LaunchScreen.storyboard */; };
+		FAD24BB21F750B2100A10FAE /* AccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD24BB11F750B2100A10FAE /* AccessManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAD24B9A1F750B0800A10FAE /* ObfuscationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObfuscationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD24B9D1F750B0800A10FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD24B9F1F750B0800A10FAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD24BA21F750B0800A10FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD24BA41F750B0800A10FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD24BA71F750B0800A10FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD24BA91F750B0800A10FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD24BAF1F750B2100A10FAE /* ObfuscationDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObfuscationDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAD24BB01F750B2100A10FAE /* AccessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessManager.h; sourceTree = "<group>"; };
+		FAD24BB11F750B2100A10FAE /* AccessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD24B971F750B0800A10FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD24B911F750B0800A10FAE = {
+			isa = PBXGroup;
+			children = (
+				FAD24B9C1F750B0800A10FAE /* ObfuscationDemo */,
+				FAD24B9B1F750B0800A10FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD24B9B1F750B0800A10FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD24B9A1F750B0800A10FAE /* ObfuscationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD24B9C1F750B0800A10FAE /* ObfuscationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAD24B9D1F750B0800A10FAE /* AppDelegate.swift */,
+				FAD24BB01F750B2100A10FAE /* AccessManager.h */,
+				FAD24BB11F750B2100A10FAE /* AccessManager.m */,
+				FAD24B9F1F750B0800A10FAE /* ViewController.swift */,
+				FAD24BA11F750B0800A10FAE /* Main.storyboard */,
+				FAD24BA41F750B0800A10FAE /* Assets.xcassets */,
+				FAD24BA61F750B0800A10FAE /* LaunchScreen.storyboard */,
+				FAD24BA91F750B0800A10FAE /* Info.plist */,
+				FAD24BAF1F750B2100A10FAE /* ObfuscationDemo-Bridging-Header.h */,
+			);
+			path = ObfuscationDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD24B991F750B0800A10FAE /* ObfuscationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD24BAC1F750B0800A10FAE /* Build configuration list for PBXNativeTarget "ObfuscationDemo" */;
+			buildPhases = (
+				FAD24B961F750B0800A10FAE /* Sources */,
+				FAD24B971F750B0800A10FAE /* Frameworks */,
+				FAD24B981F750B0800A10FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObfuscationDemo;
+			productName = ObfuscationDemo;
+			productReference = FAD24B9A1F750B0800A10FAE /* ObfuscationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD24B921F750B0800A10FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nicolás Miari";
+				TargetAttributes = {
+					FAD24B991F750B0800A10FAE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D2D4S4F85R;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAD24B951F750B0800A10FAE /* Build configuration list for PBXProject "ObfuscationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD24B911F750B0800A10FAE;
+			productRefGroup = FAD24B9B1F750B0800A10FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD24B991F750B0800A10FAE /* ObfuscationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD24B981F750B0800A10FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD24BA81F750B0800A10FAE /* LaunchScreen.storyboard in Resources */,
+				FAD24BA51F750B0800A10FAE /* Assets.xcassets in Resources */,
+				FAD24BA31F750B0800A10FAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD24B961F750B0800A10FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD24BB21F750B2100A10FAE /* AccessManager.m in Sources */,
+				FAD24BA01F750B0800A10FAE /* ViewController.swift in Sources */,
+				FAD24B9E1F750B0800A10FAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAD24BA11F750B0800A10FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD24BA21F750B0800A10FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD24BA61F750B0800A10FAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD24BA71F750B0800A10FAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD24BAA1F750B0800A10FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD24BAB1F750B0800A10FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD24BAD1F750B0800A10FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D2D4S4F85R;
+				INFOPLIST_FILE = ObfuscationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmiari.ObfuscationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObfuscationDemo/ObfuscationDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAD24BAE1F750B0800A10FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D2D4S4F85R;
+				INFOPLIST_FILE = ObfuscationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmiari.ObfuscationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObfuscationDemo/ObfuscationDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD24B951F750B0800A10FAE /* Build configuration list for PBXProject "ObfuscationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD24BAA1F750B0800A10FAE /* Debug */,
+				FAD24BAB1F750B0800A10FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD24BAC1F750B0800A10FAE /* Build configuration list for PBXNativeTarget "ObfuscationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD24BAD1F750B0800A10FAE /* Debug */,
+				FAD24BAE1F750B0800A10FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD24B921F750B0800A10FAE /* Project object */;
+}
